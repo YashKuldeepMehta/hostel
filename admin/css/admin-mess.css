@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.content-wrapper {
+    margin-left: 220px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+.page-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1e1e24;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.panel {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.panel-heading {
+    background-color: #1e1e24;
+    color: #fff;
+    padding: 15px 15px;
+    font-size : 15px;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid #1e1e24;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.panel-body {
+    padding: 15px;
+    border : 1px solid #1e1e24;
+}
+#myinp {
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    border : 1px solid lightslategray;
+}
+th {
+    background-color: #1e1e24;
+	color: white;
+}
+td {
+    word-wrap: break-word;
+    white-space: normal;
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+button {
+    background-color: #1e1e24;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+button:hover {
+    background-color: #1e1e24;
+}
+.fa-edit {
+    color: #1e1e24;
+    cursor: pointer;
+}
+.fa-edit:hover {
+    color: #1e1e24;
+}

@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.content-wrapper {
+    margin-left: 220px; 
+    padding: 20px;
+}
+
+.page-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+	margin-top: 50px;
+	color: #1e1e24;
+}
+
+.panel {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.panel-heading {
+    background-color: #1e1e24;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    border-bottom: 1px solid #1e1e24;
+    text-align: left;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.panel-body {
+    padding: 20px;
+    background-color: #f9f9f9;
+	border: 2px solid #1e1e24;
+}
+
+.fgroup {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.fgroup label {
+    width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.fgroup select{
+	width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+.fgroup input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.fsubmit {
+    margin-left:50px;
+    text-align: left;
+}
+
+.fsubmit input[type="submit"] {
+    background-color: #1e1e24;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.fsubmit input[type="submit"]:hover {
+    background-color: #1e1e24;
+}

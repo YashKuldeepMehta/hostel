@@ -1,0 +1,149 @@
+.header {
+    background-color: #1e1e24;
+    padding: 10px 20px; 
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+    left: 0;
+}
+.header .logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.ts-profile-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.ts-profile-nav li {
+    position: relative;
+    margin-left: 20px;
+}
+.ts-profile-nav .ts-account {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.ts-profile-nav .ts-avatar {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px; 
+    margin-right: 8px; 
+    display: inline-block;
+    vertical-align: middle;
+}
+.ts-profile-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 30px; 
+    display: inline-block;
+    vertical-align: middle;
+}
+.ts-profile-nav ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 10px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    list-style: none;
+    margin: 0;
+    width: 150px;
+}
+.ts-profile-nav ul li {
+    padding: 10px 20px;
+}
+.ts-profile-nav ul li a {
+    color: #fff;
+}
+.ts-profile-nav ul li a:hover {
+    background-color: #444;
+}
+.ts-account:hover ul {
+    display: block;
+}		
+.ts-sidebar {
+    width: 150x;
+    background-color: #2a2a32; 
+    color: #adb5bd; 
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+}
+.ts-sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.ts-sidebar-menu li {
+    margin-bottom: 5px;
+    
+}
+.ts-sidebar-menu .ts-label {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #adb5bd;
+    margin-bottom: 13px;
+    display: block;
+    margin-top: 40px;
+}
+.ts-sidebar-menu a {
+    color: #adb5bd;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.ts-sidebar-menu a i {
+    margin-right: 10px;
+}
+.ts-sidebar-menu a:hover {
+    background-color: #495057; 
+    color: #fff;
+}
+.ts-sidebar-menu ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.ts-sidebar-menu ul li {
+    margin-bottom: 10px;
+}
+.ts-sidebar-menu ul li a {
+    font-size: 14px;
+    color: #adb5bd;
+}
+.ts-sidebar-menu ul {
+    display: none;
+}
+.ts-sidebar-menu ul.open {
+    display: block;
+}
+.ts-sidebar-menu a.active {
+    background-color: #495057;
+    color: #fff;
+}
+.ts-sidebar-menu ul li a:hover {
+    color: #fff;
+    background-color: #495057;
+}
+.ts-sidebar-menu a.active {
+    background-color: #495057;
+    color: #fff;
+}

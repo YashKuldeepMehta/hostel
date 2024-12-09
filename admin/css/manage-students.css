@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.content-wrapper {
+    margin-left: 220px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.container-fluid {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.page-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.panel {
+    background-color: #ffffff;
+    border: 1px solid #1e1e24;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.panel-heading {
+    font-size: 15px;
+
+    padding: 15px 15px;
+    background-color: #1e1e24;
+    color: #ffffff;
+    border-bottom: 1px solid #1e1e24;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.panel-body {
+    padding: 15px;
+    border: 1px solid #1e1e24;
+}
+
+#myinp {
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid lightslategray;
+}
+
+table th {
+    background-color: #1e1e24;
+    color: white;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+table tfoot th {
+    background-color: #1e1e24;
+    color: white;
+}
+
+table .fa {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+table .fa-edit:hover {
+    color: #007bff;
+}
+
+table .fa-close:hover {
+    color: #dc3545;
+}

@@ -1,0 +1,141 @@
+.header {
+    background-color: #1e1e24;
+    padding: 10px 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+    left: 0;
+}
+
+.header .logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ts-profile-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.ts-profile-nav li {
+    position: relative;
+    margin-left: 20px;
+}
+
+.ts-profile-nav .ts-account {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ts-profile-nav .ts-avatar {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ts-profile-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ts-profile-nav ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 10px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    list-style: none;
+    margin: 0;
+    width: 150px;
+}
+
+.ts-profile-nav ul li {
+    padding: 10px 20px;
+}
+
+.ts-profile-nav ul li a {
+    color: #fff;
+}
+
+.ts-profile-nav ul li a:hover {
+    background-color: #444;
+}
+
+.ts-account:hover ul {
+    display: block;
+}
+
+
+.ts-sidebar {
+    width: 220px; 
+    background-color: #2a2a32;
+    color: #adb5bd; 
+    height: 100vh;
+    padding-top: 60px; 
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    overflow-y: auto;
+}
+
+.ts-sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ts-sidebar-menu li {
+    margin-bottom: 5px;
+    padding: 3px 15px; 
+}
+
+.ts-sidebar-menu li a {
+    color: #adb5bd; 
+    text-decoration: none;
+    display: block;
+    font-size: 16px; 
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.ts-sidebar-menu li a i {
+    margin-right: 10px; 
+}
+
+.ts-sidebar-menu li a:hover {
+    background-color: #495057;
+    color: #fff;
+}
+
+.ts-sidebar-menu .ts-label {
+    padding: 0 20px;
+    font-size: 14px; 
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #adb5bd; 
+    margin-bottom: 13px;
+}

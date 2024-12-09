@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.font1 {
+    font-size: 16px; 
+    font-weight: bold;
+    color: red;
+}
+
+.font {
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+.comb-value {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.comb-value1 {
+    font-size: 14px;
+}
+
+.table-container td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+.table-container tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.table-container td.heading {
+    color: #000;
+    width: 200px;
+}
+
+.table-container td.comb-value1 {
+    color: #000;
+    padding-left: 10px;
+}
+
+.table-container tr:last-child td {
+    border-bottom: none;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.bold-red {
+    color: red;
+    font-weight: bold;
+}
+
+.spacing {
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+}
+
+.txtbox4 {
+    padding: 8px 12px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+

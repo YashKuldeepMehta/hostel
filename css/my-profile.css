@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.content-wrapper {
+    margin-left: 250px;
+    padding: 40px 20px;
+}
+
+.container-fluid {
+    max-width: 90rem;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.page-title {
+    font-size: 28px;
+    margin-bottom: 15px;
+	margin-right: 30px;
+	text-align: center;
+    color: #1e1e24;
+
+}
+
+
+.panel-primary {
+    border-radius: 8px;
+}
+
+.panel-heading {
+    background-color: #1e1e24;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: left ;
+}
+
+.panel-body {
+    padding: 20px;
+   border: 1px solid #1e1e24;
+}
+
+
+.fhorizon .fgroup {
+    margin-bottom: 15px;
+    display: flex; 
+    align-items: center; 
+	padding: 10px;
+}
+
+.fhorizon label {
+    width: 150px; 
+    text-align: right;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.fhorizon .fcontrol {
+    flex-grow: 1; 
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+	margin-right: 60px;
+	
+}
+
+.fhorizon select.fcontrol {
+    padding: 8px;
+}
+
+.fhorizon .btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.fhorizon .btn:hover {
+    background-color: #444;
+}
+
+
+#user-availability-status {
+    font-size: 12px;
+    color: #a94442;
+}
+
+

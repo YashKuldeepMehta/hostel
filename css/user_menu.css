@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+
+
+
+.page-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1e1e24;
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+.panel {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.panel-heading {
+    background-color: #1e1e24;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table thead {
+    background-color: #f5f5f5;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+p {
+    text-align: center;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+
+.statusupdate {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.statusupdate-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.statusupdate-form {
+    padding: 20px;
+}
+
+.statusupdate-form label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.statusupdate-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+.statusupdate-form .fgroup {
+    margin-bottom: 15px;
+    
+}
+
+.statusupdate-form .fgroup .foodcheck{
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+
+.statusupdate-form button {
+    padding: 10px 20px;
+    background-color: #1e1e24;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.statusupdate-form button:hover {
+    background-color: grey;
+}
+
+
+.ts-main-content {
+    margin-left: 250px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+}
+
+.content-wrapper {
+    margin-top: 50px;
+
+}
+
+
+#updateFoodstatusBtn {
+    display: block;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #1e1e24;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30rem;
+    ;
+
+}
+
+#updateFoodstatusBtn:hover {
+    background-color: grey;
+}
